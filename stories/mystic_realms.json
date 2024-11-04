@@ -13,6 +13,19 @@
                     "next_scene": "contain_magic"
                 }
             ]
+        },
+        "explore_portal": {
+            "text": "Calvin takes a deep breath, feeling the pulse of magic in the air, like a heartbeat just out of sync with his own. This portal could be his chance to save the park. If he can find a way to tap into this power, maybe Mystic Realms could rise from the ashes. He steps closer, reaching out a tentative hand. The shimmering energy hums against his fingertips, inviting yet strange.\n\nWith a final glance over his shoulder at the silent, empty park, Calvin steps through the portal.\n\nFor a moment, he's engulfed in light, feeling as if he's being pulled through layers of reality itself. Then, with a jolt, he lands in soft, green grass, the scent of wildflowers and damp earth filling his senses. He looks around, wide-eyed. He's in a beautiful, untouched forest, far denser and more vibrant than anything he'd ever created in Mystic Realms. Strange plants with glittering leaves surround him, and tiny, glowing creatures flit between the trees like living sparks of light.\n\nIn the distance, he can see figures moving—tall, slender beings with luminescent skin and eyes like stars, each one carrying an aura of ancient power. They haven't noticed him yet, but he realizes he's in their domain, an intruder in a place that wasn't meant for mortal eyes.\n\nCalvin's heart pounds as he considers his options.",
+            "choices": [
+                {
+                    "text": "Approach the ethereal beings and introduce himself",
+                    "next_scene": "approach_beings"
+                },
+                {
+                    "text": "Hide in the shadows and observe them silently",
+                    "next_scene": "observe_silently"
+                }
+            ]
         }
     }
 }
