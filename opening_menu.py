@@ -5,7 +5,7 @@ from pathlib import Path
 
 class OpeningMenu:
     def __init__(self):
-        self.screen = pygame.display.set_mode((800, 600))
+        self.screen = pygame.display.set_mode((1024, 768))
         pygame.display.set_caption("Adventure Game - Select Story")
         self.font = pygame.font.Font(None, 32)
         self.running = True
@@ -25,7 +25,7 @@ class OpeningMenu:
 
     def display_text(self, text, y_position):
         rendered = self.font.render(text, True, (255, 255, 255))
-        text_rect = rendered.get_rect(center=(400, y_position))
+        text_rect = rendered.get_rect(center=(self.screen.get_width() // 2, y_position))
         self.screen.blit(rendered, text_rect)
 
     def run(self):
