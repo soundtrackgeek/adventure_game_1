@@ -1,0 +1,18 @@
+{
+    "title": "Mystic Realms: The Portal",
+    "scenes": {
+        "start": {
+            "text": "The sun is setting over \"Mystic Realms,\" a once-popular fantasy theme park now struggling to pull in enough visitors to keep the gates open. Rows of flickering fairy lights cast an uneven glow over crumbling statues and faded banners. The owner, Calvin, stands at the edge of his kingdom—a hodgepodge of half-forgotten realms, dragon sculptures, and malfunctioning animatronics. The echoes of children's laughter and delighted gasps once filled the air here, but now there's only the murmur of distant crickets and the occasional gust of wind that rips through torn flags.\n\nCalvin sighs as he looks at the towering gates of the \"Enchanted Forest\" attraction. Once the park's main draw, the Forest now looks more like a haunted relic than a magical escape. Tomorrow, he has to face a meeting with his investors, and he doesn't know how to tell them that the park is barely making enough to pay his staff, let alone cover the maintenance costs for the old animatronics and the increasingly erratic pyrotechnics.\n\nJust then, as if answering his thoughts, a strange shimmering catches his eye. It glows faintly near the base of the largest oak in the Enchanted Forest—a spot the maintenance crew had been complaining about, saying it \"felt off\" whenever they went near it. Calvin squints, rubbing his eyes, but the shimmer only grows brighter. Against his better judgment, he walks toward the light, his curiosity pulling him in as if by an invisible thread.\n\nWhen he steps closer, a wave of warm, tingling energy sweeps over him. It's as if he's standing on the brink of something vast, powerful, and ancient. Suddenly, the shimmer sharpens, forming into a small, circular portal at the base of the tree. Through it, Calvin can see a different world—lush green fields, soaring creatures in the distance, and strange, ethereal figures dancing in the twilight. He stumbles back, realizing with a shock that this isn't just a trick of the lights or an elaborate prank.\n\nIt's real. Magic is real. And somehow, it's leaking into his park.",
+            "choices": [
+                {
+                    "text": "Step through the portal to explore the source of the magic",
+                    "next_scene": "explore_portal"
+                },
+                {
+                    "text": "Close the portal and investigate how to safely contain the magic",
+                    "next_scene": "contain_magic"
+                }
+            ]
+        }
+    }
+}

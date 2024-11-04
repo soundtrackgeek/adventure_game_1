@@ -1,18 +1,16 @@
 {
     "title": "The Forest Adventure",
-    "author": "Example Author",
-    "start": "intro",
-    "nodes": {
-        "intro": {
+    "scenes": {
+        "start": {
             "text": "You find yourself at the edge of a dark forest. A path leads into the trees.",
             "choices": [
                 {
                     "text": "Enter the forest",
-                    "next": "forest_entry"
+                    "next_scene": "forest_entry"
                 },
                 {
                     "text": "Look for another way around",
-                    "next": "forest_edge"
+                    "next_scene": "forest_edge"
                 }
             ]
         },
@@ -21,11 +19,11 @@
             "choices": [
                 {
                     "text": "Continue deeper",
-                    "next": "deep_forest"
+                    "next_scene": "deep_forest"
                 },
                 {
                     "text": "Go back",
-                    "next": "intro"
+                    "next_scene": "start"
                 }
             ]
         },
@@ -34,11 +32,11 @@
             "choices": [
                 {
                     "text": "Try entering the forest anyway",
-                    "next": "forest_entry"
+                    "next_scene": "forest_entry"
                 },
                 {
                     "text": "Give up and go home",
-                    "next": "game_over"
+                    "next_scene": "game_over"
                 }
             ]
         },
