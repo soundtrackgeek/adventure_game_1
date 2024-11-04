@@ -3,6 +3,7 @@ import pygame
 import json
 import os
 from pathlib import Path
+from opening_menu import OpeningMenu
 
 class AdventureGame:
     def __init__(self):
@@ -52,6 +53,13 @@ class AdventureGame:
         pygame.quit()
 
 if __name__ == "__main__":
-    game = AdventureGame()
-    game.load_story('stories/sample_story.json')
-    game.run()
+    pygame.init()
+    menu = OpeningMenu()
+    selected_story = menu.run()
+    
+    if selected_story:
+        game = AdventureGame()
+        game.load_story(selected_story)
+        game.run()
+    
+    pygame.quit()
