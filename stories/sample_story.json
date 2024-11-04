@@ -1,0 +1,50 @@
+{
+    "title": "The Forest Adventure",
+    "author": "Example Author",
+    "start": "intro",
+    "nodes": {
+        "intro": {
+            "text": "You find yourself at the edge of a dark forest. A path leads into the trees.",
+            "choices": [
+                {
+                    "text": "Enter the forest",
+                    "next": "forest_entry"
+                },
+                {
+                    "text": "Look for another way around",
+                    "next": "forest_edge"
+                }
+            ]
+        },
+        "forest_entry": {
+            "text": "The trees loom overhead. You hear strange noises.",
+            "choices": [
+                {
+                    "text": "Continue deeper",
+                    "next": "deep_forest"
+                },
+                {
+                    "text": "Go back",
+                    "next": "intro"
+                }
+            ]
+        },
+        "forest_edge": {
+            "text": "The forest extends as far as you can see.",
+            "choices": [
+                {
+                    "text": "Try entering the forest anyway",
+                    "next": "forest_entry"
+                },
+                {
+                    "text": "Give up and go home",
+                    "next": "game_over"
+                }
+            ]
+        },
+        "game_over": {
+            "text": "Your adventure ends here. Press any key to quit.",
+            "choices": []
+        }
+    }
+}
